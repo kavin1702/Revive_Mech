@@ -9,11 +9,6 @@ public class CarMover : MonoBehaviour
         
     }
 
-//    public float speed = 10f;
 
-//    void FixedUpdate()
-//    {
-//        GetComponent<Rigidbody>().MovePosition(transform.position + transform.forward * speed * Time.fixedDeltaTime);
-//    }
 }
 

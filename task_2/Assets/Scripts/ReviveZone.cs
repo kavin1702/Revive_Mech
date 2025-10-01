@@ -7,12 +7,12 @@ public class ReviveZone : MonoBehaviour
     private HitAndReviveNPC npcScript;
 
     [Header("UI References")]
-    public GameObject Revive;               // "Press E to Revive" text panel
-    public Image reviveFillImage;           // The fill bar UI Image
-    public GameObject revivingText;         // "Reviving..." text panel
+    public GameObject Revive;
+    public Image reviveFillImage;
+    public GameObject revivingText;
 
     [Header("Revive Settings")]
-    public float reviveDuration = 2f;       // Total time to revive in seconds
+    public float reviveDuration = 2f;
 
     private float reviveTimer;
     private bool isReviving;
